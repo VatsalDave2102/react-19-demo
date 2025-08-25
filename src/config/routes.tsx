@@ -12,7 +12,7 @@ import HomePage from "../pages/HomePage";
 import AboutPage from "../pages/AboutPage";
 import UseHookExample from "../pages/UseHookExample";
 import RefAsAPropExample from "../pages/RefAsAPropExample";
-import ErrorHandlingExample from "../pages/ErrorHandlingExample";
+// import ErrorHandlingExample from "../pages/ErrorHandlingExample";
 import ActionExample from "../pages/ActionExample";
 import WebComponentExample from "../pages/WebComponentExample";
 
