@@ -38,11 +38,11 @@ const routes: RouteConfig[] = [
     label: "use() Hook Example",
     element: <UseHookExample />,
   },
-  {
-    path: "/error-handling-example",
-    label: "Error Handling Example",
-    element: <ErrorHandlingExample />,
-  },
+  // {
+  //   path: "/error-handling-example",
+  //   label: "Error Handling Example",
+  //   element: <ErrorHandlingExample />,
+  // },
   {
     path: "/actions-example",
     label: "Action Example",
