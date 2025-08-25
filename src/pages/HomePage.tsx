@@ -7,11 +7,17 @@ import CodeBlock from "../components/ui/CodeBlock";
 export default function HomePage() {
   const reactFeatures = [
     <>
+      <CodeBlock>ref</CodeBlock> as a prop
+    </>,
+    <>
       The <CodeBlock>use()</CodeBlock> hook for data fetching
     </>,
     "Document API for metadata management",
-    "Enhanced server components",
-    "Improved performance and rendering",
+    <>
+      Enhanced Form management with <CodeBlock>useOptimistic</CodeBlock>,{" "}
+      <CodeBlock>useFormStatus</CodeBlock>, <CodeBlock>useTransition</CodeBlock>
+    </>,
+    "New React Compiler",
     "Better Suspense integration",
   ];
 
